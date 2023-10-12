@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/4j.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-text {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h1 {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: white;
+    background: red;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:hover {
+    border: 2px solid white;
+    background: transparent;
+}
+
+button,
+.services {
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    background: crimson;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    flex-basis: 15%;
+
+}
+
+.logo img {
+    width: 100px;
+    margin: 5px 0px;
+}
+
+.logo,
+.navbar #list,
+.navbar #list li a,
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.navbar #list {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.navbar #list li {
+    list-style-type: none;
+    margin-left: 25px;
+    padding: 6px 16px;
+    border-radius: 18px;
+}
+
+.navbar #list li:hover {
+    background: red;
+}
+
+.navbar #list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.navbar .fa {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#about,
+#service,
+#testimonials,
+#contact {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title {
+    width: fit-content;
+    color: blue;
+    text-align: centre;
+    margin: 0 auto 60px;
+    padding: 0 10px 10px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    width: 40px;
+    height: 8px;
+    background: red;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-left,
+.col-right {
+    flex-basis: 50%;
+}
+
+.content-image {
+    text-align: center;
+}
+
+.content-image img {
+    width: 90%;
+}
+
+.content {
+    margin-right: 50px;
+
+}
+
+h3 {
+    color: red;
+    margin-bottom: 30px;
+}
+
+.content h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#service,
+#contact {
+    background: paleturquoise;
+}
+
+.col {
+    flex-basis: 30%;
+    text-align: center;
+
+}
+
+.services {
+    border-radius: 5px;
+    padding: 20px 10px;
+    box-shadow: -10px 10px 20px 0px rgba(255, 4, 4, 0.1);
+    transition: 0.5s;
+}
+
+.services:hover {
+    transform: scale(1.05);
+}
+
+.location {
+    width: fit-content;
+    margin: auto;
+}
+
+.contact.form {
+    width: 80%;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 7px 10px;
+    outline: none;
+    border: 1px solid #f44336;
+    margin-bottom: 15px;
+    background: transparent;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group input {
+    flex-basis: 48%;
+}
+
+form button {
+    margin: 0px;
+    border-radius: 0;
+    font-weight: 100;
+    border: 1px solid red;
+}
+
+form button {
+    color: #757575;
+}
+
+.copyright {
+    padding: 15px 0 15px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+}
+
+span {
+    color: blue;
+}
